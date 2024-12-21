@@ -40,6 +40,9 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
 
+extra_css:
+  - stylesheets/extra.css
+
 plugins:
   - blog:
       blog_toc: false
