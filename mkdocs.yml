@@ -34,6 +34,7 @@ theme:
 nav:
   - Home: index.md
   - Blog: 'blog/index.md'
+  - Tags: tags.md
 
 markdown_extensions:
   - admonition
@@ -51,6 +52,9 @@ plugins:
   
   - blog:
       blog_toc: false
+      categories: true
+      categories_name: Categories
+      categories_toc: true
   - search
   - rss:
       match_path: blog/posts/.* 
@@ -59,4 +63,5 @@ plugins:
       categories:
         - categories
         - tags 
-  - tags
+  - tags:
+      tags_file: tags.md
