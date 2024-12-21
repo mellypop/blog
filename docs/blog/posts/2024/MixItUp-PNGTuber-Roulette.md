@@ -31,6 +31,8 @@ press this hotkey, which will change our PNGTuber to the one that was randomly
 selected. You will need one for your default avatar and one for each of the
 available options.
 
+<!-- more -->
+
 I generally use veadotube mini, and a hotkey can be chosen by selecting the
 PNGTuber you want and hitting the set hotkey button on the top right (it looks
 like a keyboard key for the letter H).

@@ -30,6 +30,8 @@ which can be a hassle to update each time. I have since simplified this, but
 feel free to put this logic into the Command itself. The process will be the same
 either way.
 
+<!-- more -->
+
 These Action Groups have two main steps: update the counter and send a message to
 chat. I have a counter for each of our cats: $felixPets, $roryPets, and
 $SerenityPets to keep track of how many times each of them has been pet, but this
