@@ -15,7 +15,7 @@ theme:
 
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
-      primary: pink
+      primary: custom
       scheme: default 
 
 
@@ -25,7 +25,7 @@ theme:
 
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
-      primary: pink
+      primary: custom
       scheme: slate
       toggle:
         icon: material/brightness-4
