@@ -43,5 +43,6 @@ markdown_extensions:
 plugins:
   - blog:
       blog_toc: false
+      blog_dir: '/'
   - search
   - tags
