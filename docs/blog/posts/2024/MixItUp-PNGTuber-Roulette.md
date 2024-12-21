@@ -89,7 +89,7 @@ using one final Input(Keyboard & Mouse) Action that presses the hotkey you
 selected earlier for your default PNGTuber. In my case, that hotkey is
 Ctrl+Alt+Shift+1, so my action looks like this:
 
-![PNGTuber Input Return to Default](../..images/MixItUp-PNGTuber-Roulette/pngtuber-input-default.png)
+![PNGTuber Input Return to Default](../../images/MixItUp-PNGTuber-Roulette/pngtuber-input-default.png)
 
 You can test this all by setting your wait time to something short like 5 seconds
 and running the command using the play button at the bottom of the Command Editor.
