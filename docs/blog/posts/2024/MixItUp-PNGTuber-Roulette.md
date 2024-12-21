@@ -40,7 +40,7 @@ to set up the Twitch channel point command. The way I have done this, I need a
 Conditional Action for each available PNGTuber, so for two options, the command
 looks something like this:
 
-![PNGTuber Roulette Channel Point Command](/images/MixItUp-PNGTuber-Roulette/pngtuber-redeem.png)
+![PNGTuber Roulette Channel Point Command](../../images/MixItUp-PNGTuber-Roulette/pngtuber-redeem.png)
 
 I’ve used a counter to store the random number, but a Special Identifier action
 will also work here. MixItUp provides a helpful random number generator through
@@ -59,7 +59,7 @@ more as needed. Now, the random number generator will generate a number between
 1 and whatever number you have at the end, so the possible numbers for me are 1
 and 2, so my first Conditional Action looks like this:
 
-![PNGTuber Conditional Action](/images/MixItUp-PNGTuber-Roulette/pngtuber-random.png)
+![PNGTuber Conditional Action](../../images/MixItUp-PNGTuber-Roulette/pngtuber-random.png)
 
 I’ve set a unique chat message for each of the PNGTuber options as a sort of
 announcement, but that step is entirely optional. The important action connected
@@ -67,7 +67,7 @@ to this Conditional Action is the Input(Keyboard & Mouse) Action, which I am
 using to press one of the hotkeys I set earlier. Since the hotkey for this
 particular PNGTuber is Ctrl+Alt+Shift+2, my Input Action looks like this:
 
-![PNGTuber Input Command](/images/MixItUp-PNGTuber-Roulette/pngtuber-input-command.png)
+![PNGTuber Input Command](../../images/MixItUp-PNGTuber-Roulette/pngtuber-input-command.png)
 
 Feel free to use whichever key combinations suit you. I don’t use these
 combinations for anything else, so they make sense for me, but maybe something
@@ -89,7 +89,7 @@ using one final Input(Keyboard & Mouse) Action that presses the hotkey you
 selected earlier for your default PNGTuber. In my case, that hotkey is
 Ctrl+Alt+Shift+1, so my action looks like this:
 
-![PNGTuber Input Return to Default](images/MixItUp-PNGTuber-Roulette/pngtuber-input-default.png)
+![PNGTuber Input Return to Default](../..images/MixItUp-PNGTuber-Roulette/pngtuber-input-default.png)
 
 You can test this all by setting your wait time to something short like 5 seconds
 and running the command using the play button at the bottom of the Command Editor.
