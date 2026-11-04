@@ -15,6 +15,8 @@ internet connection. Even if you don't personally want to host a Plex
 server, though, one of your friends might, and there's also often things
 to stream and rent available.
 
+<!-- more -->
+
 Setting up an account on Plex is free and pretty easy. Go to the
 [Plex website](https://www.plex.tv/), and click on the "Sign Up Free"
 button. The registration form should look something like this:

@@ -22,6 +22,8 @@ I was asked to set up a roulette to choose a random PNGTuber as a Twitch channel
 point redeem. After watching a couple YouTube tutorials on how to change a
 PNGTuber with MixItUp, I came up with something that works fairly well.
 
+<!-- more -->
+
 The process here can be broken down into five basic steps: set a hotkey in your
 PNGTuber application, generate a random number, use that number to select a
 PNGTuber, wait for a set amount of time, and revert back to the default avatar.
@@ -30,8 +32,6 @@ So first, we need a hotkey, and we need this because we will tell MixItUp to
 press this hotkey, which will change our PNGTuber to the one that was randomly
 selected. You will need one for your default avatar and one for each of the
 available options.
-
-<!-- more -->
 
 I generally use veadotube mini, and a hotkey can be chosen by selecting the
 PNGTuber you want and hitting the set hotkey button on the top right (it looks
