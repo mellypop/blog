@@ -74,7 +74,7 @@ Setting up a MixItUp command for hugging other users in a chat that is opt-in.
 ## Socials
 
 - :simple-bluesky: [@mellypop.gay](https://bsky.app/profile/mellypop.gay)
-- :material-github: [mellypop](https://github.com/mellypop)
+- :octicons-mark-github-16: [mellypop](https://github.com/mellypop)
 
 ---
 
