@@ -244,7 +244,24 @@ class BrowserChecks(unittest.TestCase):
                             context.request.get(self.base + "assets/images/" + name).status,
                             200,
                         )
-                    page.locator(".md-search__button").click()
+                    button = page.locator(".md-search__button")
+                    self.assertEqual(button.evaluate(
+                        '(e) => getComputedStyle(e, "::after").content'
+                    ), "none")
+                    self.assertEqual(button.evaluate(
+                        '(e) => getComputedStyle(e, "::before").content'
+                    ), "none")
+                    platform = page.locator("html").get_attribute("data-platform") or ""
+                    shortcut = button.locator(".diary-search-shortcut > span:visible")
+                    self.assertEqual(
+                        shortcut.inner_text(),
+                        "⌘K" if platform.startswith("Mac") else "Ctrl+K",
+                    )
+                    self.assertEqual(
+                        button.locator(".diary-search-shortcut").get_attribute("aria-hidden"),
+                        "true",
+                    )
+                    page.get_by_role("button", name="Search", exact=True).click()
                     search = page.get_by_role("combobox", name="Search")
                     search.fill("diary")
                     page.get_by_role("option").first.wait_for()
