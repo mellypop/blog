@@ -1,9 +1,41 @@
+@font-face {
+  font-family: "Maple Mono";
+  src: url("../fonts/maple-mono/MapleMono-Regular.ttf.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Maple Mono";
+  src: url("../fonts/maple-mono/MapleMono-Bold.ttf.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Maple Mono";
+  src: url("../fonts/maple-mono/MapleMono-Italic.ttf.woff2") format("woff2");
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Maple Mono";
+  src: url("../fonts/maple-mono/MapleMono-BoldItalic.ttf.woff2") format("woff2");
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+}
+
 :root {
   --diary-pink: #ffc0cb;
   --diary-blue: #c7e7fa;
   --diary-gold: #f0c420;
-  --md-text-font: ui-rounded, "Avenir Next", "Segoe UI", sans-serif;
-  --md-code-font: ui-monospace, "SFMono-Regular", Consolas, monospace;
+  --md-text-font: "Maple Mono", ui-monospace, "SFMono-Regular", Consolas, monospace;
+  --md-code-font: var(--md-text-font);
 }
 
 [data-md-color-scheme="default"] {
