@@ -96,6 +96,9 @@ inside these wrappers and use Zensical preview to see the final layout.
 - Configuration, navigation, and appearance selector: [`zensical.toml`](zensical.toml).
 - Palette and layouts: [`theme.css`](docs/assets/stylesheets/theme.css).
 - Original SVGs, including the favicon: [`docs/assets/images/`](docs/assets/images/).
+- Search shortcut markup: [`overrides/partials/search.html`](overrides/partials/search.html).
+  The icon and shortcut use real elements rather than pseudo-elements so axe can
+  audit text contrast independently, including in Linux WebKit.
 
 ## Automated browser checks
 
