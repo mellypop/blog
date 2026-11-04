@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 380">
+  <ellipse cx="244" cy="319" rx="204" ry="26" fill="#c7e7fa"/>
+  <path d="M75 110q-38-27-15-45 19-9 25 10 17-22 31-4 13 18-41 39Z" fill="#ffc0cb" stroke="#57344c" stroke-width="4"/>
+  <path d="M365 20A30 30 0 1 0 386 63 27 27 0 0 1 365 20Z" fill="#f0c420" stroke="#57344c" stroke-width="3" stroke-linejoin="round"/>
+  <path d="m408 65 4 9 10 2-8 7 2 10-8-5-9 5 2-10-7-7 10-2Z" fill="#f0c420" stroke="#57344c" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M398 165q-28-18-14-32 10-6 15 5 12-15 22-4 10 14-23 31Z" fill="#ffc0cb" stroke="#57344c" stroke-width="3"/>
+  <g stroke="#57344c" stroke-width="5" stroke-linejoin="round">
+    <path d="M85 269q-55-23-44-64 8-20 21-8-14 40 36 43" fill="#fff1f5"/>
+    <path d="M104 212q-21 25-16 90 42 21 116 0 9-74-21-91" fill="#fff1f5"/>
+    <path d="m92 155-7-63 54 30q20-6 39 0l44-30-4 67q12 64-63 73-78-7-63-77Z" fill="#fff1f5"/>
+    <path d="m100 114 4 34 21-18m80-17-2 34-16-17" fill="#ffc0cb" stroke="none"/>
+    <path d="M119 170q9-12 18 0m34 0q9-12 18 0m-43 15 9 7 8-7m-8 7v7m-13-1q13 13 26 0" fill="none" stroke-width="4" stroke-linecap="round"/>
+    <path d="m110 268 1 34m70-34-1 35" fill="none" stroke-linecap="round"/>
+    <path d="M334 293q88 18 92-58-45 31-64-18" fill="#eaa58c"/>
+    <path d="M414 254q11-10 12-19-24 16-40 11l-4 26q18-3 32-18Z" fill="#fff1f5" stroke="none"/>
+    <path d="M269 209q-29 34-21 93 47 23 103 0 8-65-25-94" fill="#eaa58c"/>
+    <path d="m245 155 2-70 47 43 50-43 9 70 17 37-69 45-70-45Z" fill="#eaa58c"/>
+    <path d="m257 110 1 36 21-10m54-26 6 37-25-11" fill="#ffc0cb" stroke="none"/>
+    <path d="m237 184 40-20 22 27 24-27 40 20-62 45Z" fill="#fff1f5" stroke="none"/>
+    <path d="M262 165q8-11 16 0m44 0q8-11 16 0m-45 25 8 7 8-7m-8 7v9" fill="none" stroke-width="4" stroke-linecap="round"/>
+    <path d="M277 264v39m43-39v39" fill="none" stroke-linecap="round"/>
+  </g>
+  <g fill="#ffc0cb">
+    <ellipse cx="113" cy="185" rx="12" ry="6"/>
+    <ellipse cx="191" cy="185" rx="12" ry="6"/>
+    <ellipse cx="260" cy="184" rx="9" ry="5"/>
+    <ellipse cx="341" cy="184" rx="9" ry="5"/>
+  </g>
+  <path d="m166 266 71 8-12 56-71-9Z" fill="#c7e7fa" stroke="#57344c" stroke-width="4" stroke-linejoin="round"/>
+  <path d="m237 274 64-12-9 57-67 11Z" fill="#ffc0cb" stroke="#57344c" stroke-width="4" stroke-linejoin="round"/>
+  <path d="m237 274-12 56m-55-47 41 5m-44 6 41 5m38-16 37-7m-39 18 37-7" fill="none" stroke="#57344c" stroke-width="3" stroke-linecap="round"/>
+  <path d="M244 114C212 92 233 76 244 89 258 72 279 95 244 114Z" fill="#ffc0cb" stroke="#57344c" stroke-width="4"/>
+</svg>
