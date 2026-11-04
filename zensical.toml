@@ -2,7 +2,7 @@
 site_name = "A Catgirl's Diary"
 site_description = "Little joys, soft thoughts, and a few paw prints. A diary by Artemis."
 site_author = "Artemis"
-site_url = "http://127.0.0.1:8000/"
+site_url = "https://www.mellypop.gay"
 docs_dir = "docs"
 site_dir = "site"
 copyright = "Made with love and a few paw prints by Artemis."
