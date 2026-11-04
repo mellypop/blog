@@ -286,6 +286,48 @@ body {
   font-style: italic;
 }
 
+.md-search__button::before,
+.md-search__button::after {
+  content: none;
+}
+
+.diary-search-icon {
+  position: absolute;
+  top: 0.3rem;
+  inset-inline-start: 0.5rem;
+  width: 1rem;
+  height: 1rem;
+  background-color: var(--md-default-fg-color);
+  -webkit-mask: var(--md-search-icon) center / contain no-repeat;
+  mask: var(--md-search-icon) center / contain no-repeat;
+}
+
+.diary-search-shortcut {
+  position: absolute;
+  top: 0.35rem;
+  inset-inline-end: 0.6rem;
+  padding: 0.1rem 0.2rem;
+  font-size: 0.6rem;
+  background: var(--md-default-bg-color--light);
+  border-radius: 0.2rem;
+}
+
+.diary-search-shortcut--mac {
+  display: none;
+}
+
+[data-platform^="Mac"] .md-search__button::after {
+  content: none;
+}
+
+[data-platform^="Mac"] .diary-search-shortcut--other {
+  display: none;
+}
+
+[data-platform^="Mac"] .diary-search-shortcut--mac {
+  display: inline;
+}
+
 .md-search__form {
   color: var(--md-primary-bg-color);
   background: var(--diary-shadow);
