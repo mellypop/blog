@@ -1,0 +1,6 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  {{ super() }}
+  <link rel="alternate" type="application/rss+xml" title="{{ config.site_name | e }}" href="{{ 'feed.xml' | url }}">
+{% endblock %}

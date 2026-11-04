@@ -18,6 +18,7 @@ language = "en"
 logo = "assets/images/cat-heart.svg"
 favicon = "assets/images/favicon.svg"
 font = false
+custom_dir = "overrides"
 features = ["navigation.tabs", "navigation.top", "navigation.footer", "search.highlight"]
 
 [[project.theme.palette]]
@@ -48,6 +49,21 @@ toggle.name = "Dark appearance; switch to system preference"
 [project.plugins.blog]
 post_excerpt = "required"
 pagination_per_page = 4
+
+[project.plugins.rss]
+match_path = '^blog/posts/\d{4}/.*\.md$'
+use_git = false
+use_material_blog = true
+json_feed_enabled = false
+categories = ["categories"]
+feed_title = "A Catgirl's Diary"
+
+[project.plugins.rss.date_from_meta]
+as_creation = "date"
+as_update = "date"
+
+[project.plugins.rss.feeds_filenames]
+rss_created = "feed.xml"
 
 [project.markdown_extensions.attr_list]
 
