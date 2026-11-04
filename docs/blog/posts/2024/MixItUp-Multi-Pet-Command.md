@@ -1,8 +1,11 @@
 ---
   date: 2024-02-07
+  authors:
+    - artemis
   categories:
     - MixItUp
     - Streaming
+  description: A command for petting one or more pets
   tags:
     - miu
     - mix it up
@@ -18,6 +21,8 @@ So, we have 3 cats as of the time I’m writing this post, and I wanted to have 
 different to how many !pet commands are set up because it can accept 0-n
 arguments (where n is the number of pets to choose from).
 
+<!-- more -->
+
 I will break this guide up into a two main parts: Action Groups and the Command.
 
 ## Action Groups
@@ -29,8 +34,6 @@ first draft of this command was repeating the pet actions in multiple places,
 which can be a hassle to update each time. I have since simplified this, but
 feel free to put this logic into the Command itself. The process will be the same
 either way.
-
-<!-- more -->
 
 These Action Groups have two main steps: update the counter and send a message to
 chat. I have a counter for each of our cats: $felixPets, $roryPets, and

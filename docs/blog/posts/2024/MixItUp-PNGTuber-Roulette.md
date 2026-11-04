@@ -1,8 +1,11 @@
 ---
   date: 2024-01-17
+  authors:
+    - artemis
   categories:
     - MixItUp
     - Streaming
+  descriptions: PNGTuber Roulette
   tags:
     - miu
     - mix it up

@@ -1,8 +1,11 @@
 ---
   date: 2024-02-09
+  authors:
+    - artemis
   categories:
     - MixItUp
     - Streaming
+  description: An opt-in hug command for MixItUp
   tags:
     - miu
     - mix it up

@@ -1,9 +1,12 @@
 ---
-    date: 2025-11-03
-    categories:
-        - Plex
-    tags:
-        - plex
+  date: 2025-11-03
+  author:
+    - artemis
+  categories:
+    - Plex
+  description: Setting up a Plex account
+  tags:
+    - plex
 ---
 
 # Plex Account Setup
